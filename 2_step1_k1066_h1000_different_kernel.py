@@ -91,7 +91,7 @@ for collision_type in collision_types:
   midpoints_ids = data["Index"].values.tolist()
 
   try:
-    knots_df = pd.read_csv('0_knots_k'+str(k)+'_coords.csv')
+    knots_df = pd.read_csv('2_knots_k'+str(k)+'_coords.csv')
     knots_ids = knots_df['medoid_id'].values.tolist()
   except:
     knots_df = []
