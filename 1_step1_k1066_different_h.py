@@ -33,8 +33,8 @@ else:
 
 for collision_type in collision_types:
 
-  dfs_file = '4_prepared_DFS_sites_'+collision_type+'_road_props.csv'
-  nondfs_file = '4_prepared_nonDFS_sites_'+collision_type+'_road_props.csv'
+  dfs_file = '0_data_DFS_sites_'+collision_type+'_road_props.csv'
+  nondfs_file = '0_data_nonDFS_sites_'+collision_type+'_road_props.csv'
   ##################
 
   ####FOR DFS sites
