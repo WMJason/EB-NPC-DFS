@@ -15,9 +15,7 @@ All codes used in the presented study (i.e., the Network Process Convolution-bas
 
 For detailed explanations of the NPC model, please refer to its original work: 
 
-Rezaee, H., Schmidt, A. M., Stipancic, J., & Labbe, A. (2022). A process convolution model for crash count data on a network. Accident Analysis & Prevention, 177, 106823.
-
-https://www.sciencedirect.com/science/article/pii/S0001457522002585
+Rezaee, H., Schmidt, A. M., Stipancic, J., & Labbe, A. (2022). A process convolution model for crash count data on a network. Accident Analysis & Prevention, 177, 106823. https://www.sciencedirect.com/science/article/pii/S0001457522002585
 
 https://github.com/aurelielabbe/Process-convolution-model-for-crash-counts-data-on-a-network
 
