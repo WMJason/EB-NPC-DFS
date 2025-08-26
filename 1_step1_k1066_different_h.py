@@ -20,7 +20,7 @@ collision_types = ['overall','PDO','Severe']
 hs = [100, 500, 1000, 1500, 2000]
 k = 1066
 
-output_folder = '5_modelling_results_nospeed_lanes-different_h'
+output_folder = '1_modelling_results_nospeed_lanes-different_h'
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
 else:
