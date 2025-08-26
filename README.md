@@ -14,6 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 All codes used in the presented study (i.e., the Network Process Convolution-based Empirical Bayes Method or EB-NPC to evaluate safety effectiveness of traffic countermeasures) are shared here.
 
 For detailed explanations of the NPC model, please refer to its original work: 
+
 Rezaee, H., Schmidt, A. M., Stipancic, J., & Labbe, A. (2022). A process convolution model for crash count data on a network. Accident Analysis & Prevention, 177, 106823.
 
 https://www.sciencedirect.com/science/article/pii/S0001457522002585
@@ -33,9 +34,12 @@ We assume the following are available prior to the implementation:
 
 All files starting with "0_" are sample data (only partial data of what was used in the case study) due to the privacy policy of the City of Edmonton (CoE).
 
-In the python scripts, these two files are used frequently:  and "0_sp_lookups.pkl":
+In the python scripts, these two files are used frequently:
+
   "0_paths_with_legs_ALL_combined.jsonl.gz": is the "graph" of the CoE's road network built by the road network shapefile of CoE, python libraries "networkx", "shapely" and "geopandas"
+  
   "0_sp_lookups.pkl": cotains the shortest path and intersection information for each pair of points (DFS sites and nonDFS sites)
+
 However, these files exceed the file size limit, so they are allowed to be uploaded here.
 
 ## Implementation
